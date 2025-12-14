@@ -163,15 +163,18 @@ const Wizard = React.memo(function Wizard(props) {
           </group>
         </group>
       </group>
+
+
       <mesh
         castShadow
         receiveShadow
         geometry={nodes['tripo_node_2101bf2d-0583-4fc7-b9e4-0383f26d2d32001'].geometry}
         material={materials['tripo_material_2101bf2d-0583-4fc7-b9e4-0383f26d2d32.001']}
-        position={[-0.586, 0.977, -0.699]}
-        rotation={[Math.PI, -1.452, Math.PI]}
-        scale={[4.692, 2.192, 2.061]}
+        position={[-0.226, 0.957, -0.459]}
+        rotation={[Math.PI, -1.412, Math.PI]}
+        scale={[5.692, 2.192, 3.001]}
       />
+  
       <group rotation={[Math.PI / 1.8, 0, 2.8]}>
         <group scale={1.411}>
           <group rotation={[-Math.PI / 2., 0, 0]}>
